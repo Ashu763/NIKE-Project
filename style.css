@@ -122,7 +122,9 @@
   font-size: 40px;
   color: black;
   font-family: sans-serif;
-
+  background: linear-gradient(to right, rgba(208, 151, 46, 0.659), rgba(0, 0, 255, 0.716));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .icons {
@@ -225,8 +227,19 @@
   
  }
 
+ .clock{
+  border-radius: 10px 0px 0px 10px;
+  background-color: red;
+ }
+
  .enter{
   max-width: 700px;
+ }
+ #tom{
+  border-radius: 10px 10px 0px 0px;
+ }
+ #tom2{
+  border-radius: 0px 0px 10px 10px;
  }
 }
 
@@ -244,6 +257,18 @@
 
 }
 
+
+.clock{
+background-color: rgb(85, 65, 97);
+ border-radius: 10px  0px  0px 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.clock2{
+background-color: rgb(65, 94, 97);
+ border-radius: 0px 10px 10px 0px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 .i {
   font-style: inherit;
   font-weight: 500;
