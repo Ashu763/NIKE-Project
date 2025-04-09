@@ -172,7 +172,13 @@
 .climb {
   font-family: sans-serif;
   color: rgb(116, 150, 211);
+  font-weight: bold;
 
+}
+.climb5 {
+  font-family: sans-serif;
+  color: rgb(116, 150, 211);
+font-size: x-large;
 }
 
 #climb1 {
@@ -191,8 +197,13 @@
     flex-wrap: wrap;
   }
 
+  .climb5 {
+    font-size: large;
+    margin-left: 50px;
+    top: 0;
+  }
   .climb {
-    font-size: medium;
+    font-size: large;
     margin-left: 50px;
     top: 0;
   }
