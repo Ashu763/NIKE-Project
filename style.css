@@ -229,6 +229,13 @@ font-size: x-large;
 
   }
 
+  .btn-group{}
+
+  .crouselset{
+    width: 385px;
+    height: 250px;
+  }
+
  .tt{
   width: 360px;
   height: 300px;
