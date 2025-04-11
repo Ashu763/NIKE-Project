@@ -199,12 +199,12 @@ font-size: x-large;
 
   .climb5 {
     font-size: large;
-    margin-left: 50px;
+    margin-left: 30px;
     top: 0;
   }
   .climb {
     font-size: large;
-    margin-left: 50px;
+    margin-left: 30px;
     top: 0;
   }
 
@@ -229,11 +229,9 @@ font-size: x-large;
 
   }
 
-  .btn-group{}
-
   .crouselset{
     width: 385px;
-    height: 250px;
+    height: 600px;
   }
 
  .tt{
